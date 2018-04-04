@@ -1,0 +1,17 @@
+//Fitnes calculation constraints
+
+//Hard
+Each assignment must appear 2 times
+subject.students must be lesser than room.capacity
+room.type must be equal to subject.need
+subject.doubleBlock must appear at the timetable (subject.doubleBlock == yes, then coord + 10 shoud be on the timetable)
+Subject must appear at teacher's list of topics
+The same teacher per subject
+
+//Soft
+teacher.pref should appear at the created block
+subjects on the same day should be as close as posible
+score with following coordenates
+prevent isolated subjects on a day
+
+Fitness -> push() -> [] ... n*fitness
